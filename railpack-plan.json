@@ -1,8 +1,8 @@
 {
   "build": {
-    "packages": ["caddy"]
+    "builder": "NIXPACKS"
   },
-  "start": {
-    "cmd": "caddy run --config /app/Caddyfile"
+  "deploy": {
+    "startCommand": "caddy run --config /app/Caddyfile --adapter caddyfile"
   }
 }
