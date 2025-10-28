@@ -1,0 +1,8 @@
+{
+  "build": {
+    "packages": ["caddy"]
+  },
+  "start": {
+    "cmd": "caddy run --config /app/Caddyfile"
+  }
+}
